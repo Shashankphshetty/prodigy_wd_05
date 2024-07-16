@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> weather</title> 
+   </head>
+<body>
+    <style>
+body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(2.jpg);
+  background-size: 100rem;
+}
+.wrapper{
+  position: relative;
+  max-width: 430px;
+  width: 100%;
+  background:whitesmoke;
+  padding: 34px;
+  border-radius: 6px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+p{
+    font-size:x-large;
+    color:rgb(0, 0, 0) ;
+}
+</style>
+  <div class="wrapper">
+    <p>Weather App</p>
+    <input type="text"id="cityInput"placeholder="Enter city name">
+    <button id="fetchWeather">Get Weather</button>
+    <div id="weatherResult"></div>
+  </div>
+      <script src="script.js"></script>
+</body>
+</html>
